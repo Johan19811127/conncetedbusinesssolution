@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "required": ["business_name", "email"],
+  "fields": [
+    { "key": "business_name", "label": "Business Name", "type": "string" },
+    { "key": "contact_first_name", "label": "First Name", "type": "string" },
+    { "key": "contact_last_name", "label": "Last Name", "type": "string" },
+    { "key": "email", "label": "Email", "type": "email" },
+    { "key": "telephone", "label": "Telephone", "type": "phone" },
+    { "key": "mobile_phone", "label": "Mobile Phone", "type": "phone" },
+    { "key": "website", "label": "Website", "type": "url" },
+    { "key": "street_name", "label": "Street Name", "type": "string" },
+    { "key": "street_number", "label": "Street Number", "type": "string" },
+    { "key": "postal_code", "label": "Postal Code", "type": "string" },
+    { "key": "city", "label": "City", "type": "string" },
+    { "key": "state_region", "label": "State/Region", "type": "string" },
+    { "key": "country", "label": "Country", "type": "string" },
+    { "key": "external_id", "label": "External ID", "type": "string" }
+  ]
+}
